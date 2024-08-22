@@ -1,0 +1,49 @@
+  
+  .slick-slide > div {
+    margin-right: 10px;
+
+  }
+  
+  .slick-dots
+  {
+    display: none !important;
+  }
+
+
+  /* Arrows */
+.slick-prev, .slick-next {
+    width: 20px !important;
+    height: 20px !important;
+    padding: 0px !important;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 40px !important;
+    line-height: 1;
+
+    opacity: .40;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+    left: 0 !important;
+    z-index: 10;
+}
+[dir='rtl'] .slick-prev
+{
+    right: 0px !important;
+    left: auto;
+}
+
+
+.slick-next
+{
+    right: 30px !important;
+}

@@ -1,0 +1,55 @@
+  
+  .slider-2 .slick-slide > div {
+    margin-right: 10px;
+
+  }
+  
+ 
+  /* Arrows */
+  .slider-2 .slick-prev {
+    width: 20px !important;
+    height: 20px !important;
+    padding: 0px !important;
+    position:  relative !important;
+    transform:none !important
+    
+}
+
+.slider-2 .slick-next {
+  width: 20px !important;
+  height: 20px !important;
+  padding: 0px !important;
+  position:  relative !important;
+  transform:none !important
+  
+}
+
+.slider-2 .slick-prev:before,
+.slider-2 .slick-next:before
+{
+    font-family: 'slick';
+    font-size: 40px !important;
+    line-height: 1;
+
+    opacity: .40;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slider-2 .slick-prev
+{
+   
+    transform: rotateZ(90deg) !important;
+    z-index: 10;
+    left: 40% !important;
+}
+
+.slider-2 .slick-next
+{
+   
+    transform: rotateZ(90deg) !important;
+    z-index: 20;
+    left: 40% !important;
+}

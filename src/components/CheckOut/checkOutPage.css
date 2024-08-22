@@ -1,0 +1,67 @@
+.box{
+    margin: auto;
+    width: 85%;
+   
+}
+
+.checkout-page {
+    /* grid-gap: 40px;
+    display: grid; */
+    gap: 40px;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+
+.label-checkout {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.input-checkout {
+    background-color: #111;
+    border: 1px solid #111;
+    border-radius: 7px;
+    color: #fff;
+    padding: 12px 10px;
+    width: 300px;
+}
+
+.label-checkout {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.checkout-btn {
+    background-color: #00e9bf;
+    border: none;
+    border-radius: 7px;
+    color: #000;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 12px 20px;
+    width: 300px;
+}
+
+.total-price {
+    background-color: #fff;
+    border-radius: 7px;
+    width: 300px;
+    margin-top: 20px;
+    padding: 10px;;
+}

@@ -1,0 +1,9 @@
+.cartNum{
+  position: relative;
+  background-color: #00e9bf;
+  padding: 1px 3px 1px 3px;
+  border-radius: 50%;
+  left: -10px;
+  top: -10px;
+  font-size: 12px;
+}
