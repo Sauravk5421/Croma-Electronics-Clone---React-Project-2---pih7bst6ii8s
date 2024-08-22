@@ -19,7 +19,7 @@ const ChangePin = ({ open, handlePinModal, onClose, UpdatedCityPin}) => {
   
     function handlePinChange(e){
         setPin(e.target.value);
-            }
+    }
 
     function handleCityChange(e){
         setCity(e.target.value);
